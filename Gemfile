@@ -32,6 +32,9 @@ gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
 gem 'sass', '3.3.0.alpha.149'
+sass_options = {:sourcemap => true}
+gem 'compass', '0.12.2'
+gem 'compass-sourcemaps', "~> 0.12.2.sourcemaps.57a186c"
 group :development do 
 	gem 'better_errors'
 	gem 'quiet_assets'
